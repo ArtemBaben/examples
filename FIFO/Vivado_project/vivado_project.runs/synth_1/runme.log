@@ -1,0 +1,52 @@
+
+*** Running vivado
+    with args -log axis_mul.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source axis_mul.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source axis_mul.tcl -notrace
+Command: synth_design -top axis_mul -part xczu9eg-ffvb1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu9eg'
+INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10524
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Programs/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+WARNING: [Synth 8-11071] parameter declared as class-item becomes localparam in class 'DUTParams' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/dut_uvm_package.sv:3]
+WARNING: [Synth 8-11071] parameter declared as class-item becomes localparam in class 'DUTParams' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/dut_uvm_package.sv:4]
+WARNING: [Synth 8-11071] parameter declared as class-item becomes localparam in class 'DUTParams' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/dut_uvm_package.sv:5]
+ERROR: [Synth 8-36] 'uvm_pkg' is not declared [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/dut_uvm_package.sv:8]
+ERROR: [Synth 8-9263] cannot open include file 'uvm_macros.svh' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/dut_uvm_package.sv:9]
+ERROR: [Synth 8-10157] use of undefined macro 'uvm_object_param_utils' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_sequence_item.svh:2]
+ERROR: [Synth 8-2716] syntax error near '(' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_sequence_item.svh:2]
+ERROR: [Synth 8-2716] syntax error near ')' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_sequence_item.svh:2]
+ERROR: [Synth 8-36] 'uvm_object' is not declared [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_sequence_item.svh:29]
+ERROR: [Synth 8-36] 'uvm_comparer' is not declared [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_sequence_item.svh:29]
+ERROR: [Synth 8-2716] syntax error near '(' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_sequence.svh:2]
+ERROR: [Synth 8-2716] syntax error near ')' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_sequence.svh:2]
+ERROR: [Synth 8-10157] use of undefined macro 'uvm_component_param_utils' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_driver.svh:2]
+ERROR: [Synth 8-2716] syntax error near '(' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_driver.svh:2]
+ERROR: [Synth 8-2716] syntax error near ')' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_driver.svh:2]
+ERROR: [Synth 8-36] 'uvm_component' is not declared [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_driver.svh:14]
+ERROR: [Synth 8-10157] use of undefined macro 'uvm_info' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_driver.svh:22]
+ERROR: [Synth 8-2716] syntax error near '(' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_driver.svh:22]
+ERROR: [Synth 8-2716] syntax error near ',' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_driver.svh:22]
+ERROR: [Synth 8-2716] syntax error near ',' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_driver.svh:22]
+ERROR: [Synth 8-2716] syntax error near '(' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_driver.svh:26]
+ERROR: [Synth 8-2716] syntax error near ',' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_driver.svh:26]
+ERROR: [Synth 8-2716] syntax error near ',' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_driver.svh:26]
+ERROR: [Synth 8-2716] syntax error near '(' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_driver.svh:30]
+ERROR: [Synth 8-2716] syntax error near ',' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/s_dut_driver.svh:30]
+Failed to read verilog 'C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/dut_uvm_package.sv'
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 3 Warnings, 0 Critical Warnings and 23 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 20 11:28:25 2023...

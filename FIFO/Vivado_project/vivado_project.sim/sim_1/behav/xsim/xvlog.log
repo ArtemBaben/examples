@@ -1,0 +1,33 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/vivado_project.gen/sources_1/ip/axis_data_fifo_0/axis_data_fifo_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_axis_data_fifo_v2_0_9_top
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_cdc_gray
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_cdc_gray__2
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_cdc_gray__parameterized0
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_cdc_gray__parameterized1
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_cdc_sync_rst
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_cdc_sync_rst__3
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_cdc_sync_rst__4
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_counter_updn
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_counter_updn__parameterized0
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_counter_updn__parameterized0_1
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_counter_updn__parameterized1
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_counter_updn__parameterized1_2
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_counter_updn__parameterized2
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_fifo_axis
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_fifo_base
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_fifo_reg_bit
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_fifo_reg_vec
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_fifo_reg_vec_0
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_fifo_rst
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0_xpm_memory_base
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/axis_mul.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/dut_uvm_package.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/axis_if.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/Sources/TB_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/vivado_project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'glbl' [C:/Design/_temp/vivado2021/UVM/examples/FIFO/Vivado_project/vivado_project.sim/sim_1/behav/xsim/glbl.v:6]

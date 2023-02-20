@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../vivado_project.gen/sources_1/ip/axis_data_fifo_0/axis_data_fifo_0_sim_netlist.v" \
+
+sv xil_defaultlib  \
+"../../../../Sources/axis_mul.sv" \
+"../../../../Sources/dut_uvm_package.sv" \
+"../../../../Sources/axis_if.sv" \
+"../../../../Sources/TB_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

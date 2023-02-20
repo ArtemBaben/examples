@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_top" />
+            <top_module name="dut_uvm_package" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="uvm_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.406667 us"></ZoomStartTime>
+      <ZoomEndTime time="5.706668 us"></ZoomEndTime>
+      <Cursor1Time time="1.290000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="154"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject type="divider" fp_name="divider11">
+      <obj_property name="label">s_dut_if_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\s_dut_if[0] /clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\s_dut_if[0] /rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\s_dut_if[0] /s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\s_dut_if[0] /s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\s_dut_if[0] /s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\s_dut_if[0] /VAR_WIDTH" type="array">
+      <obj_property name="ElementShortName">VAR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">VAR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider12">
+      <obj_property name="label">m_dut_if_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\m_dut_if[0] /clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\m_dut_if[0] /m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[16:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\m_dut_if[0] /m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\m_dut_if[0] /m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\m_dut_if[0] /VAR_WIDTH" type="array">
+      <obj_property name="ElementShortName">VAR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">VAR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\m_dut_if[0] /MUL_FACTOR" type="array">
+      <obj_property name="ElementShortName">MUL_FACTOR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MUL_FACTOR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider13">
+      <obj_property name="label">s_dut_if_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\s_dut_if[1] /clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\s_dut_if[1] /rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\s_dut_if[1] /s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\s_dut_if[1] /s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\s_dut_if[1] /s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\s_dut_if[1] /VAR_WIDTH" type="array">
+      <obj_property name="ElementShortName">VAR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">VAR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider14">
+      <obj_property name="label">m_dut_if_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\m_dut_if[1] /clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\m_dut_if[1] /m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[16:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\m_dut_if[1] /m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\m_dut_if[1] /m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\m_dut_if[1] /VAR_WIDTH" type="array">
+      <obj_property name="ElementShortName">VAR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">VAR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_top/\m_dut_if[1] /MUL_FACTOR" type="array">
+      <obj_property name="ElementShortName">MUL_FACTOR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MUL_FACTOR[31:0]</obj_property>
+   </wvobject>
+</wave_config>
